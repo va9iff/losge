@@ -1,4 +1,4 @@
-import {losge} from "../losge.js"
+import {losge} from "../index.js"
 
 let data = losge({
 	value: 99
