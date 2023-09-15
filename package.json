@@ -1,0 +1,15 @@
+{
+  "name": "losge",
+  "version": "1.0.0",
+  "description": "simpler local storage",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "localstorage"
+  ],
+  "author": "va9iff",
+  "license": "MIT"
+}
