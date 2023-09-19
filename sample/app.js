@@ -1,17 +1,14 @@
-import {losge} from "../index.js"
+import { losge } from "../index.js"
 
 let data = losge({
-	value: 99
+	value: 99,
 })
-
 
 let add = document.querySelector("#add"),
 	save = document.querySelector("#save"),
 	reset = document.querySelector("#reset"),
 	result = document.querySelector("#result")
 result.innerHTML = data.value
-
-
 
 add.onclick = e => {
 	data.value++
